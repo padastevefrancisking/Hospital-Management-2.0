@@ -11,6 +11,7 @@ namespace Hospital_Management
         public Patient(string name, int age, double weight, string address, string phoneNumber) : base(name, age, weight, address, phoneNumber)
         { }
 
+        //hellowwwwwwww
         public void Admit(Hospital hospital, int roomNumber, ConditionStatus status)
         {
             foreach (var p in hospital.PatientRecords)

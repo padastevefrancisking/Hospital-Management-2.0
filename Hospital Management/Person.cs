@@ -13,6 +13,7 @@ namespace Hospital_Management
         public double Weight { get; private set; }
         public string Address { get; private set; }
         public string PhoneNumber { get; private set; }
+        public string gender { get; private set; }
 
         public Person(string name, int age, double weight, string address, string phoneNumber)
         {

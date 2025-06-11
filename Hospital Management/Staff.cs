@@ -10,7 +10,9 @@ namespace Hospital_Management
     {
         public Staff(string name, int age, double weight, string address, string phoneNumber) : base(name, age, weight, address, phoneNumber)
         { }
-
+        
+        public void AnotherMethod()
+        { return;}
         public void Assign(Patient patient, Hospital hospital)
         {
             foreach (var p in hospital.PatientRecords)

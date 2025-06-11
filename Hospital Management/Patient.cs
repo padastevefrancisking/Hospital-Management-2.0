@@ -43,6 +43,10 @@ namespace Hospital_Management
             }
         }
 
+        public void practice()
+        {
+
+        }
         public override string ToString()
         {
             return this.Name + " (" + this.Age + ")";
